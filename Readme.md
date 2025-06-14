@@ -1,6 +1,6 @@
  Charrod Terrell
 
- Website about ?? with a search engine to find information about ??
+ Website with a search engine to find information about ??
 
  Details on how to use it or what functionality is offered
 
