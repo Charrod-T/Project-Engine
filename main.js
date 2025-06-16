@@ -1,43 +1,13 @@
-const searchForm = document.getElementById ('search-form')
-const searchInput = document.getElementById ('search-box')
-const resultsElement = document.getElementById("search-results")
+const searchForm = document.getElementById ('search-form');
+const searchInput = document.getElementById ('search-box');
+const resultsElement = document.getElementById('search-results');
+const showMoreBtn = document.getElementById ('show-more-button');
 
-searchForm.addEventListener('submit', function(event) {
-    event.preventDefault()
-    const q = searchInput.value
-    search(q)
-})
+let keyword = "";
+let page = 1;
 
-function search(q) {
-    const apikey = '4dq04fkDkwiXsn1xH9GQZCLgQarb2sux'
-    const path = `https://api.giphy.com/v1/gifs/search?api_key=${apikey}&q=${q}`
-
-     fetch(path).then (function(response){
-        return response.json()
-         })
-             .then(function(json){
-              console.log (json.data[0].images.fixed_width.url)
-
-    let resultsHTML = ''
-
-json.data.forEach(function(object) {
-        console.log(object)
-
-        const url = object.images.fixed_width.url
-        const width = object.images.fixed_width
-        const height = object.images.fixed_width.height
-        const title = object.title
-
-        resultsHTML += 
-        `<img 
-        src="${url}" 
-        width = "${width} 
-        height = "${height}"
-        alt = "${title}">`
-    })
-resultsElement.innerHTML = resultsHTML
-})
-.catch(function(error) {
-    console.error('Error fetching GIFs:', error);
-});
+async function searchImages() {
+    keyword = searchBox.value;
+    const url = `https://api.giphy.com/v1/gifs/search?page=${page}4dq04fkDkwiXsn1xH9GQZCLgQarb2suxq${keyword}`;
+    
 }
