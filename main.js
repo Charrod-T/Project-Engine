@@ -1,33 +1,43 @@
-const q = 'comdey'
-const apikey = '4dq04fkDkwiXsn1xH9GQZCLgQarb2sux&q'
-const path = `https://api.giphy.com/v1/gifs/search?api_key=${apikey}&q=${q}`
-const 
-fetch(path)
-.then( function (response) {
-    return response.json()
+const searchForm = document.getElementById ('search-form')
+const searchInput = document.getElementById ('search-box')
+const resultsElement = document.getElementById("search-results")
+
+searchForm.addEventListener('submit', function(event) {
+    event.preventDefault()
+    const q = searchInput.value
+    search(q)
 })
-.then( function (json) {
-    console.log(json.data[0].images.fixed_width.url)
-    const resultsElement = document.getElementById("search-results")
+
+function search(q) {
+    const apikey = '4dq04fkDkwiXsn1xH9GQZCLgQarb2sux'
+    const path = `https://api.giphy.com/v1/gifs/search?api_key=${apikey}&q=${q}`
+
+     fetch(path).then (function(response){
+        return response.json()
+         })
+             .then(function(json){
+              console.log (json.data[0].images.fixed_width.url)
+
     let resultsHTML = ''
 
-        json.data.forEach(function(object) {
+json.data.forEach(function(object) {
         console.log(object)
+
         const url = object.images.fixed_width.url
         const width = object.images.fixed_width
         const height = object.images.fixed_width.height
         const title = object.title
 
         resultsHTML += 
-        `<image 
+        `<img 
         src="${url}" 
         width = "${width} 
         height = "${height}"
         alt = "${title}">`
     })
-
-    resultsElement.innerHTML = resultsHTML
+resultsElement.innerHTML = resultsHTML
 })
 .catch(function(error) {
-console.log(error.message)
-})
+    console.error('Error fetching GIFs:', error);
+});
+}
