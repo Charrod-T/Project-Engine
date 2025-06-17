@@ -1,18 +1,14 @@
 const searchForm = document.getElementById ('search-form')
 const searchBox = document.getElementById ('search-box')
 const resultsElement = document.getElementById('results')
-const clearButton = document.getElementById('clear-button');
 
-clearButton.addEventListener('click', function() {
-       resultsElement.innerHTML = '';
-    });
-
+document.querySelector("#search-box").value = '';
 
 searchForm.addEventListener('submit', function(event) {
     event.preventDefault()
     const q = searchBox.value
     search(q)
-})
+});
 
 function search(q) {
 const apikey = '4dq04fkDkwiXsn1xH9GQZCLgQarb2sux';
@@ -42,6 +38,7 @@ resultsHTML += `<img src = "${url}"
 })
 
 resultsElement.innerHTML = resultsHTML
+searchBox.value = '';
 
 }).catch(function (error) {
 console.log (error.message)
