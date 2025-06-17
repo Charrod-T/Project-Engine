@@ -1,6 +1,12 @@
 const searchForm = document.getElementById ('search-form')
 const searchBox = document.getElementById ('search-box')
 const resultsElement = document.getElementById('results')
+const clearButton = document.getElementById('clear-button');
+
+clearButton.addEventListener('click', function() {
+       resultsElement.innerHTML = '';
+    });
+
 
 searchForm.addEventListener('submit', function(event) {
     event.preventDefault()
