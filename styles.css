@@ -6,7 +6,7 @@
 }
 
 body {
-    background-color: darkslateblue;
+    background-color: rgb(53, 4, 53);
     color: cornsilk;
 }
 
@@ -14,7 +14,9 @@ h1 {
    text-align: center;
    margin: 100px auto 50px;
    font-weight: 600;
-   font-size: 80px;
+   font-size: 175px;
+   font-family: 'Fleur De Leah', sans serif;
+   font-weight: 250; 
 }
 
 form {
@@ -46,7 +48,7 @@ form button{
     max-width: 100px;
     margin: auto;
     height: 80px;
-    background: rgba(247, 95, 7, 0.733);
+    background: rgba(30, 255, 0, 0.733);
     display: flex;
     align-items: center;
     border-radius: 29.5px;
@@ -70,7 +72,7 @@ form button:active{
 
 #search-result img{
     width: 18%;
-    height: 200px;
+    height: 50px;
     object-fit: cover;
-    border-radius: 20px;
+    border-radius: 50px;
 }
