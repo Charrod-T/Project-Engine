@@ -7,22 +7,25 @@
     <link rel="stylesheet" href="./styles.css">
 </head>
 
-<!--header-->
+<!--title above search-->
 <h1>Image search</h1>
 
-
-<!--sources-->
 <body>    
-    <form id="search-form">
-        <input type="text" id="search-box"  placeholder="Search anything here...">
-        <button>Search</button>
-    </form>
+    <div class="container">
+        <header>
+             <form id="search-form">
+                <input type="text" id="search-box"  placeholder="Search anything here...">
+                <button type="submit">Search</button>
+            </form>
+        </header>
 
-<div id="search-reset"></div>
-<button id="reset-btn">Reset</button>
-    
+<!--gif images here-->
+        <div id="results" class="results">
 
-<!--javascript-->
+        </div>
+    </div>
+
+   <!--javascript-->
 <script src="./main.js"></script>
 
 </body>

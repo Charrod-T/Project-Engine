@@ -13,7 +13,8 @@ body {
 h1 {
    text-align: center;
    margin: 100px auto 50px;
-   font-weight: 600; 
+   font-weight: 600;
+   font-size: 80px;
 }
 
 form {
