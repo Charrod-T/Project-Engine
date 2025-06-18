@@ -87,5 +87,6 @@ form button:active{
 }
 .navbar-nav {
   display: flex;
-  flex-direction: column; /* Stacks the items vertically */
+  flex-direction: column;
+  overflow-x: hidden;
 }
