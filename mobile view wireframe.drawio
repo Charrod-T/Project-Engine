@@ -1,0 +1,49 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/27.0.9 Chrome/134.0.6998.205 Electron/35.4.0 Safari/537.36" version="27.0.9">
+  <diagram name="Page-1" id="OWRf0u3Xe3HrmObbW5yD">
+    <mxGraphModel dx="1090" dy="1185" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="InV0U_tdLsY6G-4O_XIK-1" value="" style="rounded=0;whiteSpace=wrap;html=1;rotation=90;fillColor=#4C0099;fontColor=#ffffff;strokeColor=#3700CC;" vertex="1" parent="1">
+          <mxGeometry x="60" y="240" width="665" height="387.5" as="geometry" />
+        </mxCell>
+        <mxCell id="InV0U_tdLsY6G-4O_XIK-2" value="&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;search bar&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#FFFFFF;fillColor=#FFFFFF;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="253.75" y="300" width="277.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="InV0U_tdLsY6G-4O_XIK-3" value="&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;search&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;button&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#2D7600;fillColor=#60a917;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="460" y="300" width="71.25" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="InV0U_tdLsY6G-4O_XIK-4" value="&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;image (stacked on top of search)&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#FFFFFF;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="272.5" y="170" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="InV0U_tdLsY6G-4O_XIK-5" value="&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;search(underneath image text)&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="297.5" y="220" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="InV0U_tdLsY6G-4O_XIK-13" value="searched gifs" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="253.75" y="390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="InV0U_tdLsY6G-4O_XIK-14" value="searched gifs" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="253.75" y="470" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="InV0U_tdLsY6G-4O_XIK-15" value="searched gifs" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="253.75" y="560" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="InV0U_tdLsY6G-4O_XIK-16" value="searched gifs" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="253.75" y="650" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="InV0U_tdLsY6G-4O_XIK-17" value="searched gifs" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="650" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="InV0U_tdLsY6G-4O_XIK-18" value="searched gifs" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="560" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="InV0U_tdLsY6G-4O_XIK-19" value="searched gifs" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="470" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="InV0U_tdLsY6G-4O_XIK-20" value="searched gifs" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="411.25" y="390" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
